@@ -1,0 +1,134 @@
+/* MAIN */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Helvetica, sans-serif, white;
+    color: white;
+    /*background-color: green;*/
+    min-height: 100%;
+    margin: 0; 
+    background: url("https://cdn.hiconsumption.com/wp-content/uploads/2017/03/Best-Dogs-For-Hiking-00.jpg") no-repeat center center fixed;
+    /* Full height */
+
+    /* Center and scale the background image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main {
+   width: 60%;
+   margin: 0 auto; 
+   /*background-color: gray;*/
+}
+
+#entryPoint {
+    color: white; 
+    text-decoration: none;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 5px 0 5px; 
+}
+
+nav li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+#homeContent {
+    text-align: center;
+    padding: 250px 0;
+}
+
+h2 {
+    padding: 0 0 10px 0; 
+}
+
+/*PRODUCTS*/
+
+.row{
+    text-align: center;
+}
+
+.productItem{
+    display: inline-block;
+    width: 19vw;
+}
+
+.productImage{
+    display: inline-block;
+    width: 19vw;
+    height: 19vw;
+    overflow: hidden;
+}
+
+/*PRODUCT DETAIL*/
+
+.detailImage{
+    display: inline;
+    width: 25vw;
+    height: 25vw;
+}
+
+.colLeft{
+    display: inline-block;
+    width: 49%;
+}
+
+.colRight{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    background-color: #444;
+    padding: 30px;
+}
+
+.detailDescription{
+    font-style: italic;
+}
+
+
+.detailColor{
+    color: #008; 
+}
+
+.selectedColor{
+    color: plum;
+
+}
+
+.detailSize{
+    color: #008;
+}
+
+.selectedSize{
+    color: palegreen;
+}
+
+/*ABOUT*/
+
+.aboutImage{
+    display: inline;
+    width: 25vw;
+    height: 30vw;
+}
+
+.aboutLabel{
+    color: #999;
+}
+
+.aboutDescription{
+    font-style: italic;
+    color: #777;
+}
